@@ -100,11 +100,12 @@
 		7B025CDF1E7D4C1A00EEED7D /* Validation */ = {
 			isa = PBXGroup;
 			children = (
+				7B025CE21E7D4C4100EEED7D /* Validation.storyboard */,
 				7B025CE01E7D4C2A00EEED7D /* ValidationViewController.swift */,
 				7B025CE61E7D777500EEED7D /* ValidationViewModel.swift */,
-				7B025CE21E7D4C4100EEED7D /* Validation.storyboard */,
 			);
 			name = Validation;
+			path = Validation;
 			sourceTree = "<group>";
 		};
 		7B331AE91E7D4042007DB912 = {
@@ -130,8 +131,8 @@
 		7B331AF41E7D4042007DB912 /* RxSwiftPlayground */ = {
 			isa = PBXGroup;
 			children = (
-				7B025CDF1E7D4C1A00EEED7D /* Validation */,
 				7B025CDE1E7D48BE00EEED7D /* Sum */,
+				7B025CDF1E7D4C1A00EEED7D /* Validation */,
 				7B331AF51E7D4042007DB912 /* AppDelegate.swift */,
 				7B331AFC1E7D4042007DB912 /* Assets.xcassets */,
 				7B331B011E7D4042007DB912 /* Info.plist */,
