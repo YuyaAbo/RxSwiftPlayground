@@ -12,6 +12,8 @@ target 'RxSwiftPlayground' do
   target 'RxSwiftPlaygroundTests' do
     inherit! :search_paths
     # Pods for testing
+    pod 'Quick'
+    pod 'Nimble'
     pod 'RxBlocking', '~> 3.0'
     pod 'RxTest',     '~> 3.0'
   end
