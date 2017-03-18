@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B025CE11E7D4C2A00EEED7D /* ValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B025CE01E7D4C2A00EEED7D /* ValidationViewController.swift */; };
+		7B025CE31E7D4C4100EEED7D /* Validation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B025CE21E7D4C4100EEED7D /* Validation.storyboard */; };
+		7B025CE51E7D66B600EEED7D /* SumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B025CE41E7D66B600EEED7D /* SumViewModel.swift */; };
 		7B331AF61E7D4042007DB912 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B331AF51E7D4042007DB912 /* AppDelegate.swift */; };
 		7B331AF81E7D4042007DB912 /* SumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B331AF71E7D4042007DB912 /* SumViewController.swift */; };
 		7B331AFB1E7D4042007DB912 /* Sum.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B331AF91E7D4042007DB912 /* Sum.storyboard */; };
@@ -32,6 +35,9 @@
 		2C04062DE0FA9331E72BB81B /* Pods_RxSwiftPlaygroundTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftPlaygroundTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		334D1285CDFD843FC2FDD702 /* Pods-RxSwiftPlayground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftPlayground.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftPlayground/Pods-RxSwiftPlayground.debug.xcconfig"; sourceTree = "<group>"; };
 		3D4501B9827BE6F68D776828 /* Pods_RxSwiftPlayground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftPlayground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B025CE01E7D4C2A00EEED7D /* ValidationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationViewController.swift; sourceTree = "<group>"; };
+		7B025CE21E7D4C4100EEED7D /* Validation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Validation.storyboard; sourceTree = "<group>"; };
+		7B025CE41E7D66B600EEED7D /* SumViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SumViewModel.swift; sourceTree = "<group>"; };
 		7B331AF21E7D4042007DB912 /* RxSwiftPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B331AF51E7D4042007DB912 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B331AF71E7D4042007DB912 /* SumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumViewController.swift; sourceTree = "<group>"; };
@@ -82,9 +88,18 @@
 			children = (
 				7B331AF91E7D4042007DB912 /* Sum.storyboard */,
 				7B331AF71E7D4042007DB912 /* SumViewController.swift */,
+				7B025CE41E7D66B600EEED7D /* SumViewModel.swift */,
 			);
-			name = Sum;
 			path = Sum;
+			sourceTree = "<group>";
+		};
+		7B025CDF1E7D4C1A00EEED7D /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				7B025CE01E7D4C2A00EEED7D /* ValidationViewController.swift */,
+				7B025CE21E7D4C4100EEED7D /* Validation.storyboard */,
+			);
+			name = Validation;
 			sourceTree = "<group>";
 		};
 		7B331AE91E7D4042007DB912 = {
@@ -110,6 +125,7 @@
 		7B331AF41E7D4042007DB912 /* RxSwiftPlayground */ = {
 			isa = PBXGroup;
 			children = (
+				7B025CDF1E7D4C1A00EEED7D /* Validation */,
 				7B025CDE1E7D48BE00EEED7D /* Sum */,
 				7B331AF51E7D4042007DB912 /* AppDelegate.swift */,
 				7B331AFC1E7D4042007DB912 /* Assets.xcassets */,
@@ -234,6 +250,7 @@
 				7B331B001E7D4042007DB912 /* LaunchScreen.storyboard in Resources */,
 				7B331AFD1E7D4042007DB912 /* Assets.xcassets in Resources */,
 				7B331AFB1E7D4042007DB912 /* Sum.storyboard in Resources */,
+				7B025CE31E7D4C4100EEED7D /* Validation.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +364,8 @@
 				7B8956861E7D411F00DE9D52 /* README.md in Sources */,
 				7B331AF81E7D4042007DB912 /* SumViewController.swift in Sources */,
 				7B331AF61E7D4042007DB912 /* AppDelegate.swift in Sources */,
+				7B025CE51E7D66B600EEED7D /* SumViewModel.swift in Sources */,
+				7B025CE11E7D4C2A00EEED7D /* ValidationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

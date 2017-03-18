@@ -4,7 +4,8 @@ import RxCocoa
 
 class SumViewController: UIViewController {
     
-    let disposeBag = DisposeBag()
+    private let disposeBag = DisposeBag()
+    private let viewModel = SumViewModel()
 
     @IBOutlet weak var number1: UITextField!
     @IBOutlet weak var number2: UITextField!
@@ -13,15 +14,13 @@ class SumViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        Observable.combineLatest(
-            number1.rx.text.orEmpty,
-            number2.rx.text.orEmpty,
-            number3.rx.text.orEmpty
-        ) { (num1, num2, num3) -> Int in
-            return (Int(num1) ?? 0) + (Int(num2) ?? 0) + (Int(num3) ?? 0)
-        }
-            .map { $0.description } //sum.rx.textにバインディングするためにStringに
+    
+        number1.rx.text.orEmpty.bindTo(viewModel.num1).addDisposableTo(disposeBag)
+        number2.rx.text.orEmpty.bindTo(viewModel.num2).addDisposableTo(disposeBag)
+        number3.rx.text.orEmpty.bindTo(viewModel.num3).addDisposableTo(disposeBag)
+        
+        viewModel.sum
+            .map { $0.description }
             .bindTo(sum.rx.text)
             .disposed(by: disposeBag)
     }
