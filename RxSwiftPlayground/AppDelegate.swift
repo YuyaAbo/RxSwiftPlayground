@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  RxSwiftPlayground
-//
-//  Created by YuyaAbo on 2017/03/18.
-//  Copyright © 2017年 YuyaAbo. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
