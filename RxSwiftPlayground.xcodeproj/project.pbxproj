@@ -10,6 +10,8 @@
 		7B025CE11E7D4C2A00EEED7D /* ValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B025CE01E7D4C2A00EEED7D /* ValidationViewController.swift */; };
 		7B025CE31E7D4C4100EEED7D /* Validation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B025CE21E7D4C4100EEED7D /* Validation.storyboard */; };
 		7B025CE51E7D66B600EEED7D /* SumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B025CE41E7D66B600EEED7D /* SumViewModel.swift */; };
+		7B025CE71E7D777500EEED7D /* ValidationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B025CE61E7D777500EEED7D /* ValidationViewModel.swift */; };
+		7B025CE91E7D7A2C00EEED7D /* ValidationViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B025CE81E7D7A2C00EEED7D /* ValidationViewModelTests.swift */; };
 		7B331AF61E7D4042007DB912 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B331AF51E7D4042007DB912 /* AppDelegate.swift */; };
 		7B331AF81E7D4042007DB912 /* SumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B331AF71E7D4042007DB912 /* SumViewController.swift */; };
 		7B331AFB1E7D4042007DB912 /* Sum.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B331AF91E7D4042007DB912 /* Sum.storyboard */; };
@@ -38,6 +40,8 @@
 		7B025CE01E7D4C2A00EEED7D /* ValidationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationViewController.swift; sourceTree = "<group>"; };
 		7B025CE21E7D4C4100EEED7D /* Validation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Validation.storyboard; sourceTree = "<group>"; };
 		7B025CE41E7D66B600EEED7D /* SumViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SumViewModel.swift; sourceTree = "<group>"; };
+		7B025CE61E7D777500EEED7D /* ValidationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationViewModel.swift; sourceTree = "<group>"; };
+		7B025CE81E7D7A2C00EEED7D /* ValidationViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationViewModelTests.swift; sourceTree = "<group>"; };
 		7B331AF21E7D4042007DB912 /* RxSwiftPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B331AF51E7D4042007DB912 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B331AF71E7D4042007DB912 /* SumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				7B025CE01E7D4C2A00EEED7D /* ValidationViewController.swift */,
+				7B025CE61E7D777500EEED7D /* ValidationViewModel.swift */,
 				7B025CE21E7D4C4100EEED7D /* Validation.storyboard */,
 			);
 			name = Validation;
@@ -141,6 +146,7 @@
 			children = (
 				7B331B0C1E7D4042007DB912 /* Info.plist */,
 				7B331B0A1E7D4042007DB912 /* SumViewModelTests.swift */,
+				7B025CE81E7D7A2C00EEED7D /* ValidationViewModelTests.swift */,
 			);
 			path = RxSwiftPlaygroundTests;
 			sourceTree = "<group>";
@@ -364,6 +370,7 @@
 				7B8956861E7D411F00DE9D52 /* README.md in Sources */,
 				7B331AF81E7D4042007DB912 /* SumViewController.swift in Sources */,
 				7B331AF61E7D4042007DB912 /* AppDelegate.swift in Sources */,
+				7B025CE71E7D777500EEED7D /* ValidationViewModel.swift in Sources */,
 				7B025CE51E7D66B600EEED7D /* SumViewModel.swift in Sources */,
 				7B025CE11E7D4C2A00EEED7D /* ValidationViewController.swift in Sources */,
 			);
@@ -374,6 +381,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B331B0B1E7D4042007DB912 /* SumViewModelTests.swift in Sources */,
+				7B025CE91E7D7A2C00EEED7D /* ValidationViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
